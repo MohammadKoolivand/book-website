@@ -1,7 +1,7 @@
 import React from 'react'
 import { createStackNavigator } from '@react-navigation/stack'
-import LoginScreen from "./pages/SigninScreen";
 import RegisterScreen from "./pages/SignupScreen";
+import LoginScreen from "./pages/SigninScreen";
 
 const Stack = createStackNavigator()
 export default function LoginNavigator({ setIsLogin }) {
